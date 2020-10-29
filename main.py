@@ -13,7 +13,7 @@ Finish = "Finish"
 Track = "Track"
 
 class Rl:
-    def __init__(self,LoadModel,n_states,n_actions,filename="model.rl"):
+    def __init__(self,LoadModel,n_states,n_actions,filename="model.txt"):
         self.n_states = n_states
         self.n_actions = n_actions
         self.percentile = 70
