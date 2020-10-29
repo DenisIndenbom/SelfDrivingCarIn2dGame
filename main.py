@@ -288,7 +288,7 @@ class Car(pygame.sprite.Sprite):
         self.visionsLines = [Line(),Line(),Line(),Line(),Line()]
         self.collision = BoxCollision(self.img.get_width(),self.img.get_height(),self.scr,Map,RewardMap)
         self.endSession = False
-        self.RlModel = Rl(True,1125,6,"model.rl")
+        self.RlModel = Rl(True,1125,6,"model.txt")
         self.Attempts = 1
         self.learningFromExamplesMode = learningFromExamplesMode
 
